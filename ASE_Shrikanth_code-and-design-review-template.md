@@ -18,13 +18,20 @@ The datasets which will be used for this model will be from Public Domain and Cr
 
 ### Arcitecture Proposal
 
-The approach which will be followed for this model is Monte Carlo denoising. This is based on supervised machine learning framework where the model will be pre-trained with noisy and clean image pairs and then applied to the actual noisy image to be rendered.[2]
+There are many approaches avaialable to denoise Monte Carlo renderings. But for this paper convolutional neural network (CNN) architecture will be used. This is based on supervised machine learning framework where the model will be pre-trained with noisy and clean image pairs and then applied to the actual noisy image to be rendered.[2]
+
+ <img src="https://github.com/ShrikanthX/AIM_ASE_project_Shrikanth/blob/main/CNN_Architecture.jpg" width="1000"><p>
+    <em>Figure 2 : Convolution Neural Network[3] (Jonghee Back et al. 2022) </em>
+</p>
 
 ## References
 
 [1] Joss Whittle, 2012. Dissertation Update: Path Tracing in action - l2program.co.uk - 1355621166.png [image]. Available from: http://l2program.co.uk/wp-content/uploads/2013/06/1355621166.png [Accessed 18 November 2022].
 
+
 [2] Gwangju Institute of Science and Technology, September 2022, available at https://techxplore.com/news/2022-09-method-denoising-images.html (Accessed on 17 November 2022)
+
+[3] Jonghee Back, Binh-Son Hua, Toshiya Hachisuka, Bochang Moon, 2022. Self-Supervised Post-Correction for Monte Carlo Denoising - dl.acm.org/ - siggraph22conferenceproceedings-36-fig3.jpg [figure]. Available from: https://dl.acm.org/cms/attachment/53164f1c-f315-4352-8832-ccf198807857/siggraph22conferenceproceedings-36-fig3.jpg [Accessed 18 November 2022].
 
 
 
