@@ -8,7 +8,7 @@ Many of the 3D rendering engines for example Arnold which use raytracing methods
 
 Computer-generated content plays a vital role in bringing life and realism to visual medias such as movies, commercials and video games. 3-dimensional images have undergone various improvements from their earliest stages in terms of quality and efficiency. This also improved the realism in the 3D images. It can be said that most of the realism was achieved through implementation of algorithms which brought in real world like features inside the 3D lighting environment. One of those features is called raytracing. Raytracing involves emitting thousands of light rays on a 3D model which then reflects, refracts or scatters with the model depending upon its material property. Computational calculation of these rays bouncing takes a lot of time depending upon the hardware being used. The number of rays being emitted and its behaviour after interacting with a 3D object or scene is decided by sample values Many of the 3D rendering engines for example Arnold which use raytracing methods to render 3D graphics confront the issue of noises in the rendered images. These noises are generated as result of low sample values used on the light rays from the 3D lights. Increasing the sample values, however, will lead to longer render times. Rendered Image denoiser is a type of Artificial Intelligence algorithm which aims to reduce noise in the computer-generated images after they are rendered. The goal is to obtain cleaner images without increasing the sample values.
 
- <img src="https://github.com/ShrikanthX/AIM_ASE_project_Shrikanth/blob/main/Noise_sample_comparison.png" width="500"><p>
+ <img src="https://github.com/ShrikanthX/AIM_ASE_project_Shrikanth/blob/main/images/Noise_sample_comparison.png" width="500"><p>
     <em>Figure 1 : Samples per pixel comparison of noise in render images[1] (Joss Whittle 2012) </em>
 </p>
 
@@ -20,7 +20,7 @@ The datasets which will be used for this model will be from Public Domain and Cr
 
 There are many approaches avaialable to denoise Monte Carlo renderings. But for this paper convolutional neural network (CNN) architecture will be used. This is based on supervised machine learning framework where the model will be pre-trained with noisy and clean image pairs and then applied to the actual noisy image to be rendered.[2]
 
- <img src="https://github.com/ShrikanthX/AIM_ASE_project_Shrikanth/blob/main/CNN_Architecture.jpg" width="1000"><p>
+ <img src="https://github.com/ShrikanthX/AIM_ASE_project_Shrikanth/blob/main/images/CNN_Architecture.jpg" width="1000"><p>
     <em>Figure 2 : Convolution Neural Network[3] (Jonghee Back et al. 2022) </em>
 </p>
 
